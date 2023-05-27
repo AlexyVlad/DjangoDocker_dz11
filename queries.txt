@@ -30,7 +30,7 @@ Out[5]: 2
 
 5) Создать новый курс по JS
 
-In [6]: models.Course.objects.create(name="JS", price="10000")
+In [6]:
 Out[6]: <Course: JS>
 
 #####################################################

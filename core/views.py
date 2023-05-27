@@ -8,6 +8,7 @@ from core import models, filters
 
 def index(request):
     count = Course.objects.count()
+
     return render(request, 'index.html', {"count": count})
 
 
