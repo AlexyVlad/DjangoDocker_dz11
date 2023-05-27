@@ -13,6 +13,7 @@ class Teacher(models.Model):
     name = models.CharField(max_length=255, verbose_name='Имя учителя')
     salary = models.CharField(max_length=8, verbose_name='Зарплата')
 
+
     def __str__(self):
         return self.name
 
